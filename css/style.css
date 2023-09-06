@@ -1,0 +1,128 @@
+*{
+    box-sizing: border-box;
+}
+body {
+    color: #bfc1c8;
+    font-family: "Roboto", "Open Sans", sans-serif;
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 1.5;
+    background: #1e202b;
+}
+a{
+    text-decoration: none;
+    color: white;
+    cursor: pointer;
+}
+nav{
+    background-color: transparent;
+}
+.logo{
+    width: 64px;
+    aspect-ratio: auto 64 / 38;
+    height: 38px;
+}
+
+h1{
+    font-weight: 700;
+    font-size: 15px;
+}
+h6{
+    font-size: 10px;
+}
+.hero{
+    background-image:url(../images/Downloads2.png);
+    background-size: cover;
+    min-height: 350px;
+    padding: 70px 0px;
+}
+.searchbar{
+    background-color: #1e202b;
+    padding: 20px 0px;
+    border-radius: 30px;
+    border: 0px;
+}
+.site-footer{
+    background: #262936;
+    padding: 50px 0;
+    
+}
+p{
+    margin-top: 1.7rem;
+} 
+.find-location button{
+    right: 20px;
+    top: 5px;
+    bottom: 5px;
+    padding: 0 40px;
+    border-radius: 30px;
+}
+.subscribe-form button{
+    right: 5px;
+    top: 5px;
+    bottom: 5px;
+    border-radius: 30px;
+}
+.find-location input{
+    width: 100%;
+    padding: 20px 50px 20px 20px;
+    background: #1e202b;
+    color: white;
+    border: none;
+    outline: none;
+}
+.subscribe-form input{
+    padding: 20px 100px 20px 20px;
+    background: #1e202b;
+    width: 100%;
+    color: white;
+    border: none;
+    outline: none;
+}
+.fa-brands:hover{
+    background: #009ad8;
+    color:white;
+    transition: 0.3s ease;
+
+}
+.fa-brands{
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    border-radius: 50%;
+    background: #1e202b;
+    color: #009ad8;
+    text-align: center;
+    line-height: 2;
+    font-size: 20px;
+}
+.weather{
+    background: #323544;
+    border-radius: 10px;
+    margin-top: -150px;
+    margin-bottom: 50px;
+}
+.forecast-header{
+    
+  
+    text-align: center;
+    font-weight: 400;
+}
+.forecast-content{
+    padding: 50px 20px 10px;
+    text-align: center;
+}
+.forecast.today .forecast-content{
+    text-align: left;
+    padding-top: 30px;
+    padding-bottom: 30px;
+} 
+.today span{
+    margin-right: 20px;
+}
+.forecast:nth-child(even){
+    background-color: #262936;
+}
+.forecast-header:scope{
+    background-color: #bfc1c8;;
+}
